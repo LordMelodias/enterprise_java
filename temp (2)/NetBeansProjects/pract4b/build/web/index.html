@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Registration page</title>
+        <style>
+            input{
+                margin: 10px 20px;
+            }
+            section{
+                margin-bottom: 25%;
+                padding: 200px;
+            }
+        </style>
+    </head>
+    <body style="background-image: linear-gradient(white, lightgreen, gray)">
+        <section><fieldset>
+        <form action="validation.jsp">
+            <h3>Registration Page</h3>
+        Enter Your Name<input type="text" name="name" ><br>
+        Enter Your Age<input type="text" name="age" ><br>
+        Select Hobbies
+        <input type="checkbox" name="hob" value="Singing">Singing
+        <input type="checkbox" name="hob" value="Reading">Reading Books
+        <input type="checkbox" name="hob" value="Football">Playing Football<br>
+        Enter E-mail<input type="text" name="email" ><br>
+        Select Gender
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="other">Other<br>
+        <input type="hidden" name="error" value="">
+        <input type="submit" value="Submit Form">
+        </form>
+            </fieldset>
+        </section>
+    </body>
+</html>
+
